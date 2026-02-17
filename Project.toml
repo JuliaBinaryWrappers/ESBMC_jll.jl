@@ -1,0 +1,26 @@
+name = "ESBMC_jll"
+uuid = "f2b6e0de-2827-5924-8156-f9b21238bd87"
+version = "8.0.0+0"
+
+[deps]
+GMP_jll = "781609d7-10c4-51f6-84f2-b8444358ff6d"
+Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+Clang_jll = "0ee61d77-7f21-5576-8119-9fcc46b10100"
+z3_jll = "1bc4e1ec-7839-5212-8f2f-0d16b7bd09bc"
+yaml_cpp_jll = "01fea8cc-7d33-533a-824e-56a766f4ffe8"
+boost_jll = "28df3c45-c428-5900-9ff8-a3135698ca75"
+JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+CompilerSupportLibraries_jll = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+
+[compat]
+JLLWrappers = "1.7.0"
+julia = "1.12"
+GMP_jll = "6.2.1"
+Libdl = "< 0.0.1, 1"
+z3_jll = "4.13.3"
+TOML = "< 0.0.1, 1"
+Artifacts = "< 0.0.1, 1"
+boost_jll = "1.87.0"

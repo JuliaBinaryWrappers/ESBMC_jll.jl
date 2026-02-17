@@ -1,0 +1,164 @@
+[[ESBMC]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "99194c5af7474d026c290188477e3abd19d93d5a"
+libc = "glibc"
+llvm_version = "18"
+os = "linux"
+
+    [[ESBMC.download]]
+    sha256 = "42ca2e4f974620fcdf528b453876c7744710af4873437aa32c2d1318ab9142ed"
+    url = "https://github.com/JuliaBinaryWrappers/ESBMC_jll.jl/releases/download/ESBMC-v8.0.0+0/ESBMC.v8.0.0.x86_64-linux-gnu-cxx11-llvm_version+18.tar.gz"
+[[ESBMC]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "520ef4822aee86f9b6832977c105963cccdd4186"
+libc = "glibc"
+llvm_version = "18"
+os = "linux"
+
+    [[ESBMC.download]]
+    sha256 = "e2072e8e642b3174819d3476216722de6102e131b137455c3519e1a81d03584b"
+    url = "https://github.com/JuliaBinaryWrappers/ESBMC_jll.jl/releases/download/ESBMC-v8.0.0+0/ESBMC.v8.0.0.aarch64-linux-gnu-cxx11-llvm_version+18.tar.gz"
+[[ESBMC]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a7c2a10df467626604535a2662ea17394223fa49"
+libc = "glibc"
+llvm_version = "18"
+os = "linux"
+
+    [[ESBMC.download]]
+    sha256 = "bebd3a9a564ed70cdd9e33385f5099b6cd1b365f59ca77df8a3a0d58c7f356d6"
+    url = "https://github.com/JuliaBinaryWrappers/ESBMC_jll.jl/releases/download/ESBMC-v8.0.0+0/ESBMC.v8.0.0.powerpc64le-linux-gnu-cxx11-llvm_version+18.tar.gz"
+[[ESBMC]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9469755064f8f1abc3fa79d4031ec5b915602883"
+libc = "musl"
+llvm_version = "18"
+os = "linux"
+
+    [[ESBMC.download]]
+    sha256 = "e12874a48753b84e79b23891ba5614a93d9616e1179090978d590d1f4c5b0869"
+    url = "https://github.com/JuliaBinaryWrappers/ESBMC_jll.jl/releases/download/ESBMC-v8.0.0+0/ESBMC.v8.0.0.x86_64-linux-musl-cxx11-llvm_version+18.tar.gz"
+[[ESBMC]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "050978cbdc62ce04a8d997a4d18f4362c8f9de40"
+libc = "musl"
+llvm_version = "18"
+os = "linux"
+
+    [[ESBMC.download]]
+    sha256 = "0d61084c9abe04275b64c97b6937e0502c96a4faace5a288fc14454f2ceb8313"
+    url = "https://github.com/JuliaBinaryWrappers/ESBMC_jll.jl/releases/download/ESBMC-v8.0.0+0/ESBMC.v8.0.0.aarch64-linux-musl-cxx11-llvm_version+18.tar.gz"
+[[ESBMC]]
+arch = "x86_64"
+git-tree-sha1 = "9defffb78c5ccbe7fa526b95141427d5f201dca5"
+llvm_version = "18"
+os = "macos"
+
+    [[ESBMC.download]]
+    sha256 = "bbea889fc4f7cade5831fb5961840d58fcef19f0a0779cace39eef9ea0e3d00b"
+    url = "https://github.com/JuliaBinaryWrappers/ESBMC_jll.jl/releases/download/ESBMC-v8.0.0+0/ESBMC.v8.0.0.x86_64-apple-darwin-llvm_version+18.tar.gz"
+[[ESBMC]]
+arch = "aarch64"
+git-tree-sha1 = "c67ad052e9e1c6589fbc7abfb3cff57a006ec025"
+llvm_version = "18"
+os = "macos"
+
+    [[ESBMC.download]]
+    sha256 = "5ad93c41a60009e6871236c258ee3caba1f29e652aa5b5967e1e3bd1327b04ba"
+    url = "https://github.com/JuliaBinaryWrappers/ESBMC_jll.jl/releases/download/ESBMC-v8.0.0+0/ESBMC.v8.0.0.aarch64-apple-darwin-llvm_version+18.tar.gz"
+[[ESBMC]]
+arch = "x86_64"
+git-tree-sha1 = "a38df3fa33ed2aacf7c7fca27732487868760ae4"
+llvm_version = "18"
+os = "freebsd"
+
+    [[ESBMC.download]]
+    sha256 = "f7774c4c50e667d1530ca81c7a65656036b2b55a8e4249c4ff35ca458f93e2b9"
+    url = "https://github.com/JuliaBinaryWrappers/ESBMC_jll.jl/releases/download/ESBMC-v8.0.0+0/ESBMC.v8.0.0.x86_64-unknown-freebsd-llvm_version+18.tar.gz"
+[[ESBMC]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5a8d8b3b53169a19ca78e545d9a6cbf0227beb88"
+libc = "glibc"
+llvm_version = "18.asserts"
+os = "linux"
+
+    [[ESBMC.download]]
+    sha256 = "7d6873c9346bbfa82c2c21415352589ddd104b41e0c66bd0cb792c1dfa2dff3f"
+    url = "https://github.com/JuliaBinaryWrappers/ESBMC_jll.jl/releases/download/ESBMC-v8.0.0+0/ESBMC.v8.0.0.x86_64-linux-gnu-cxx11-llvm_version+18.asserts.tar.gz"
+[[ESBMC]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ea96200ff0e154f48aebdcb83e87231ab62580c0"
+libc = "glibc"
+llvm_version = "18.asserts"
+os = "linux"
+
+    [[ESBMC.download]]
+    sha256 = "f279b87390aca2cc82f744969bca828d21466b7ab7c3cb02dea793024cf37397"
+    url = "https://github.com/JuliaBinaryWrappers/ESBMC_jll.jl/releases/download/ESBMC-v8.0.0+0/ESBMC.v8.0.0.aarch64-linux-gnu-cxx11-llvm_version+18.asserts.tar.gz"
+[[ESBMC]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f80a5d498edef69d51cc34799cf07f192bc77607"
+libc = "glibc"
+llvm_version = "18.asserts"
+os = "linux"
+
+    [[ESBMC.download]]
+    sha256 = "65a76a0941f5549ef92bdf19d0908c7dea72c2cb689c96e687f2cff546466a56"
+    url = "https://github.com/JuliaBinaryWrappers/ESBMC_jll.jl/releases/download/ESBMC-v8.0.0+0/ESBMC.v8.0.0.powerpc64le-linux-gnu-cxx11-llvm_version+18.asserts.tar.gz"
+[[ESBMC]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "041ae6e949f93c44a9c66f7a41022b168e9f274c"
+libc = "musl"
+llvm_version = "18.asserts"
+os = "linux"
+
+    [[ESBMC.download]]
+    sha256 = "b4df6a2f5d37f0fb279d9ad202b98138fc99b3d31ce8116cd00b4662e5e318d8"
+    url = "https://github.com/JuliaBinaryWrappers/ESBMC_jll.jl/releases/download/ESBMC-v8.0.0+0/ESBMC.v8.0.0.x86_64-linux-musl-cxx11-llvm_version+18.asserts.tar.gz"
+[[ESBMC]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "939b200aa88b44a5b511261edb1be096f159e4d8"
+libc = "musl"
+llvm_version = "18.asserts"
+os = "linux"
+
+    [[ESBMC.download]]
+    sha256 = "5e4a2a07c2cd0a6d701aa19021f915c62bae608e6ffdb1ba689bae7a1f162bbb"
+    url = "https://github.com/JuliaBinaryWrappers/ESBMC_jll.jl/releases/download/ESBMC-v8.0.0+0/ESBMC.v8.0.0.aarch64-linux-musl-cxx11-llvm_version+18.asserts.tar.gz"
+[[ESBMC]]
+arch = "x86_64"
+git-tree-sha1 = "bf68cfdb6ad78c8d6113ae0da9b33cae10ffe012"
+llvm_version = "18.asserts"
+os = "macos"
+
+    [[ESBMC.download]]
+    sha256 = "e9c2bef64776a948f71c19a8fc1a6bfe0aee6d5296af9a6f6241be10b92b56d4"
+    url = "https://github.com/JuliaBinaryWrappers/ESBMC_jll.jl/releases/download/ESBMC-v8.0.0+0/ESBMC.v8.0.0.x86_64-apple-darwin-llvm_version+18.asserts.tar.gz"
+[[ESBMC]]
+arch = "aarch64"
+git-tree-sha1 = "510167b1a2143d9421d164c2696d3d3653e7db80"
+llvm_version = "18.asserts"
+os = "macos"
+
+    [[ESBMC.download]]
+    sha256 = "a808d199cf83f2a305139d21671f10cd4f944ce9c75ae0b4ce547fdb8feb244f"
+    url = "https://github.com/JuliaBinaryWrappers/ESBMC_jll.jl/releases/download/ESBMC-v8.0.0+0/ESBMC.v8.0.0.aarch64-apple-darwin-llvm_version+18.asserts.tar.gz"
+[[ESBMC]]
+arch = "x86_64"
+git-tree-sha1 = "2824d30d9365d86d85642ab27266e8c9d4bdafa9"
+llvm_version = "18.asserts"
+os = "freebsd"
+
+    [[ESBMC.download]]
+    sha256 = "c30ed7305d64c9db9c9be486cfd21c4d876cc7a1fca226711c228bef7af665db"
+    url = "https://github.com/JuliaBinaryWrappers/ESBMC_jll.jl/releases/download/ESBMC-v8.0.0+0/ESBMC.v8.0.0.x86_64-unknown-freebsd-llvm_version+18.asserts.tar.gz"
